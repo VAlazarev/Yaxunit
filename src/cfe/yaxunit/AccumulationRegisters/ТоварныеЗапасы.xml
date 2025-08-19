@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="661292eb-b169-43ef-a3f1-b996352dff72">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ТоварныеЗапасы" category="Record">
+				<xr:TypeId>f2a2372d-dd8b-469a-9806-091297e724ca</xr:TypeId>
+				<xr:ValueId>a2217c34-78d8-43bf-81f6-04339ed975e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ТоварныеЗапасы" category="Manager">
+				<xr:TypeId>f3e5b38f-bd17-4de7-95d1-f157ca180a04</xr:TypeId>
+				<xr:ValueId>905a7598-ec65-479a-ab14-90a51d7c6f90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ТоварныеЗапасы" category="Selection">
+				<xr:TypeId>a317334b-9b06-4f67-803c-45432d0bbc5b</xr:TypeId>
+				<xr:ValueId>602afc7e-6ca8-4e76-9f27-b150b4f6b7fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ТоварныеЗапасы" category="List">
+				<xr:TypeId>98470f7a-3c13-4e9c-9f2a-12be697a02e1</xr:TypeId>
+				<xr:ValueId>f2b57f00-bd6e-46a5-8337-6208e7e57902</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ТоварныеЗапасы" category="RecordSet">
+				<xr:TypeId>85b77f26-7a30-4dfe-b02b-b465c91051c5</xr:TypeId>
+				<xr:ValueId>5cb20e48-7259-4ad9-8dfe-f5770645db7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ТоварныеЗапасы" category="RecordKey">
+				<xr:TypeId>9fd958e2-7132-43bd-ba6b-e3d312d618fe</xr:TypeId>
+				<xr:ValueId>c85efcc4-967e-46c0-bfbd-ef3fc31c0ce5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТоварныеЗапасы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3d63bfa3-859a-4aa5-b357-410f077b41b8</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f558eaa0-0861-40c3-863f-4db74e2844d0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>533d06d0-646d-4a5b-9eff-c2051d4f9c8e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="86a98deb-c206-41f0-957c-c16b69050f26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>372292cb-0fea-4097-a725-07f25efdafde</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="311dca29-4814-4aa2-a236-fd66e7241c8d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товар</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e7912d9-8486-4691-b340-237064466895</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Товары</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
