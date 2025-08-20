@@ -9,7 +9,7 @@
 		<Metadata name="Catalog.Склады" id="10ef989b-02bf-4948-bd32-c816884685be" configVersion="3099109b1f82802e864daff7e7983e70b2f5e14e"/>
 		<Metadata name="Catalog.Товары" id="78354356-f2a0-49cb-a887-a76fac499fef" configVersion="746985ff929bb9231ada212caa3363632b92fbbb"/>
 		<Metadata name="CommonModule.OM_ПриходРасход" id="6bb219d0-4093-4dc5-a237-3feae1bf25f0" configVersion="748681191ce3e551101a1a6cec38ebdf0aea2127"/>
-		<Metadata name="CommonModule.OM_ПриходРасход.Module" id="6bb219d0-4093-4dc5-a237-3feae1bf25f0.0" configVersion="7d5b05f0dece194a05b498d871b4c31d8b9052d8"/>
+		<Metadata name="CommonModule.OM_ПриходРасход.Module" id="6bb219d0-4093-4dc5-a237-3feae1bf25f0.0" configVersion="8359cabe52579e5394c59a9e824b14c99436e5c5"/>
 		<Metadata name="CommonModule.Мокито" id="b5c40903-c446-420c-824e-07c58f5b7021" configVersion="1406fd97010efb6019dee797fccfa2fab2b88b1d"/>
 		<Metadata name="CommonModule.Мокито.Module" id="b5c40903-c446-420c-824e-07c58f5b7021.0" configVersion="c25544df26bee5ffcc028eaf6c2530a25ee5a7f4"/>
 		<Metadata name="CommonModule.МокитоОбучение" id="e25ecfb4-02ca-4764-84e7-dfc8cdaa02dc" configVersion="4b75e896f63cc0b3cf7a38ac4a152be466ce8334"/>
@@ -24,6 +24,8 @@
 		<Metadata name="CommonModule.ОМ_API_ОписанияТоваров.Module" id="90e0d10a-1b15-4fd1-8bbe-56ebc171bff5.0" configVersion="4ad65ba79efc114cd8e96f9142411722e46754e3"/>
 		<Metadata name="CommonModule.ОМ_ПервыйТест" id="e29e91c9-5b80-4e6e-adea-342697f367f4" configVersion="037102428123c44dbeb2ce342aa4b7b90ebb2af2"/>
 		<Metadata name="CommonModule.ОМ_ПервыйТест.Module" id="e29e91c9-5b80-4e6e-adea-342697f367f4.0" configVersion="07e22b750d0f3dc4fbfb8c2b69a653d8f61f2051"/>
+		<Metadata name="CommonModule.ОМ_Тест" id="80ff9e94-09bd-486a-b4e6-a43bccbdfcf5" configVersion="c7263865af6ff91914dc1f3ebbf9511d92d54c73"/>
+		<Metadata name="CommonModule.ОМ_Тест.Module" id="80ff9e94-09bd-486a-b4e6-a43bccbdfcf5.0" configVersion="abad5d5d872abd138ccdd5f583b3ae16444443a6"/>
 		<Metadata name="CommonModule.ЮТАлюр" id="8bdc52e7-497a-4623-a30b-9daee9c44ab9" configVersion="04b600660eadc9337f22ef782230f61c74413f64"/>
 		<Metadata name="CommonModule.ЮТАлюр.Module" id="8bdc52e7-497a-4623-a30b-9daee9c44ab9.0" configVersion="96f04a4f4f241ae9876d6d5a4faa4f8e8d31f9fc"/>
 		<Metadata name="CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент" id="cb3274e3-1931-4354-be2c-7ad3e56b3042" configVersion="05ab0a8237535d9f399385dd09af18baf3beee23"/>
@@ -280,7 +282,7 @@
 		<Metadata name="CommonTemplate.ЮТИнформацияОбОшибке.Template" id="79b3b92e-8186-41a2-a4ca-c08cbcf1f1c7.0" configVersion="6a84870d1f5468ffa4d32bcfee335c2610d1f8c1"/>
 		<Metadata name="CommonTemplate.ЮТОписаниеМетаданных" id="ff9a8a07-b110-4d3e-9f32-33bd3ee69988" configVersion="354511fd19c2710efd967ff25e0a94d0cd645d41"/>
 		<Metadata name="CommonTemplate.ЮТОписаниеМетаданных.Template" id="ff9a8a07-b110-4d3e-9f32-33bd3ee69988.0" configVersion="a4f21c586aca3505d9e6a4b2cfcb3048bb92197b"/>
-		<Metadata name="Configuration.YAXUNIT" id="8ebe57d7-1182-4eea-bdda-375c1e0262e4" configVersion="c96340f29588548c091ea35f3c95fe84f65b770b"/>
+		<Metadata name="Configuration.YAXUNIT" id="8ebe57d7-1182-4eea-bdda-375c1e0262e4" configVersion="6f88bff76064d3be27dc89b151d5e21547a98438"/>
 		<Metadata name="Configuration.YAXUNIT.ManagedApplicationModule" id="7aac7ebc-1c41-419f-aac1-52a9be0908ba.6" configVersion="45d5766745a2ca337daf620d5174edbca70b83e0"/>
 		<Metadata name="Configuration.YAXUNIT.OrdinaryApplicationModule" id="7aac7ebc-1c41-419f-aac1-52a9be0908ba.0" configVersion="45d5766745a2ca337daf620d5174edbca70b83e0"/>
 		<Metadata name="DataProcessor.ЮТHTTPServiceRequest" id="01df8cc1-cb96-4cda-a18f-0641bca9f212" configVersion="9001da605d73c38c4cd05706876faf66303e29ee"/>

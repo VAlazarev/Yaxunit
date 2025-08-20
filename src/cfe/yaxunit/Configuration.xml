@@ -203,6 +203,7 @@
 			<CommonModule>ОМ_ПервыйТест</CommonModule>
 			<CommonModule>ОМ_API_ОписанияТоваров</CommonModule>
 			<CommonModule>OM_ПриходРасход</CommonModule>
+			<CommonModule>ОМ_Тест</CommonModule>
 			<Catalog>Склады</Catalog>
 			<Catalog>Товары</Catalog>
 			<DataProcessor>ЮТHTTPServiceRequest</DataProcessor>
